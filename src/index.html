@@ -9,9 +9,15 @@
   <body>
     <script src="index.js" type="module"></script>
     <header>
-           <h1>Text Analysis</h1>
+           <h1 class="background-text">Text Analysis</h1>
     </header>
     <main>
+      
+      <div id="content-center"></div>
+      <textarea name="user-input" cols="20" rows="10"></textarea>
+      <button id="reset-button">Clear metrics</button>
+    </div>
+
       <ul>
         <li class="metric" data-testid="word-count">Number of words: 0</li>
         <li class="metric" data-testid="character-count">Total number of characters: 0</li>
@@ -20,14 +26,11 @@
         <li class="metric" data-testid="number-sum">Total Sum of Numbers: 0</li>
         <li class="metric" data-testid="word-length-average">Average Word Length: 0</li>
       </ul>
-      <div id="content-center">
-        <h2>Input Text:</h2>
-        <button id="reset-button">Clear metrics</button>
-      </div>
-      <textarea name="user-input" cols="20" rows="10"></textarea>
+      
+      
     </main>
     <footer>
-      <p>&copy; 2023 Tamara Goncalves. All rights reserved.</p>
+      <p class="background-text">Tamara Goncalves. All rights reserved.</p>
     </footer>
   </body>
 </html>
