@@ -1,3 +1,4 @@
+
 const analyzer = {
   getWordCount: (text) => {
     const pattern = /[a-zA-Z0-9_]/;
