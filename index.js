@@ -32,12 +32,3 @@ function allMetricsUpdate() {
   numberSum.textContent = "Total Sum of Numbers: " + analyzer.getNumberSum(text);
   wordLengthAverage.textContent = "Average Word Length: " + analyzer.getAverageWordLength(text);
 }
-// function allMetricsUpdate() { 
-//   const text = textarea.value;
-//   wordCount.textContent = "Number of words: " + analyzer.getWordCount(text);
-//   characterCount.textContent ="Total number of characters: " + analyzer.getCharacterCount(text);
-//   characterNoSpacesCount.textContent = "Char Count Without Space Count: " +analyzer.getCharacterCountExcludingSpaces(text);
-//   numberCount.textContent = "Number Count: " + analyzer.getNumberCount(text);
-//   numberSum.textContent = "Total Sum of Numbers: " + analyzer.getNumberSum(text);
-//   wordLengthAverage.textContent ="Average Word Length: " + analyzer.getAverageWordLength(text);
-// }
